@@ -14,7 +14,7 @@ public class SportResults {
     }
     public void generateRandomResult(){
         Random random = new Random();
-        int result = random.nextInt(2);
+        int result = random.nextInt(3);
         switch (result){
             case 0 -> this.result = team1;
             case 1 -> this.result = team2;
