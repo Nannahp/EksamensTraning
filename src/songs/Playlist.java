@@ -6,12 +6,14 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 
 public class Playlist {
+
     private ArrayList<Song> songs = new ArrayList<>();
 
     public Playlist(Song...song){
         for(Song curretnSong: song){
         songs.add(curretnSong);}
     }
+
 
     public int getTotalDuration(){
         int totalDuration=0;
